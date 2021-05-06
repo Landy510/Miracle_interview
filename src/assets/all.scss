@@ -1,0 +1,12 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "./helper/variable";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+}
