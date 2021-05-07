@@ -108,7 +108,7 @@ export default {
   padding: 10px;
 }
 .list-group {
-  overflow-x: hidden;
+  overflow-x: auto;
 }
 .navscroll {
   box-shadow: 5px 5px rgba(0, 0, 0, 0.4);

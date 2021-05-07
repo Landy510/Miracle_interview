@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <Navbar class="sticky-top" />
-    <main>
+    <main class="flex-grow-1">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-6 col-md-4 col-lg-3 mb-4" v-for="(item, index) in vedio" :key="index">
@@ -90,6 +90,9 @@ export default {
 @import "./assets/all";
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .footer {
   position: sticky;
