@@ -93,6 +93,8 @@ export default {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x:hidden;
+  overflow-y:auto;
 }
 .footer {
   position: sticky;
